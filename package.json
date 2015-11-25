@@ -1,0 +1,14 @@
+{
+  "name": "learning-redux",
+  "version": "1.0.0",
+  "description": "Learning redux from egghead.io",
+  "main": "index.js",
+  "scripts": {
+    "simpleCounter": "browserify simpleCounter.js -o simpleCounterCompiled.js -t [ babelify --presets [ es2015 react ] ]"
+  },
+  "author": "Christo Georgiev",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^7.2.0",
+  }
+}
